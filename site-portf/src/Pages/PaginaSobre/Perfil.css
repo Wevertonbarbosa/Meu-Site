@@ -1,0 +1,569 @@
+.container-principal-geral {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgba(26, 1, 56, 0.836) 91.1%);
+}
+
+/* Parte sobre mim breve introdução */
+.container-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    column-gap: 40px;
+}
+
+.container-perfil figure {
+    margin: 0;
+}
+
+.container-perfil h2 {
+    text-align: center;
+}
+
+.container-perfil img {
+    border-radius: 20px 100px 20px 100px;
+    width: 290px;
+
+}
+
+
+.container-text-about {
+    color: white;
+    text-align: center;
+    max-width: 761px
+}
+
+.container-text-about h2 {
+    font-family: 'Rye', cursive;
+    color: white;
+    margin: 0;
+
+}
+
+.container-text-about p,
+h2,
+h4 {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+.container-text-about h4 {
+    font-family: 'Rye', cursive;
+    background: rgba(255, 217, 0, 0.123);
+    border-radius: 10px;
+}
+
+
+.container-text-about p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: .3em;
+}
+
+
+
+
+/* Parte sobre minha informções academicas */
+.container-school {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+    padding: 2em;
+}
+
+#titulo-school {
+    padding: 2em;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-school img {
+    object-fit: cover;
+    height: 250px;
+    border: 2px solid rgba(255, 217, 0, 0.562);
+    border-radius: 20px;
+    box-shadow: -5px 10px 10px rgba(255, 255, 255, 0.719);
+}
+
+
+
+.contente-text-school {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Parte sobre meus cursos profissionalizantes */
+
+.container-cursos-conteudos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+    padding: 2em;
+
+}
+
+.titulo-cursos {
+    padding: 2em;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contente-cursos-text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-cursos-conteudos img {
+    object-fit: cover;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 217, 0, 0.562);
+    box-shadow: -5px 10px 10px rgba(255, 255, 255, 0.719);
+}
+
+
+
+
+
+
+/* criação de Slide de cards  */
+
+.sessao-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+    padding: 2em;
+}
+
+#container-geral-cards {
+    border-radius: 20px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content-text-school {
+    color: white;
+}
+
+#content-text-school:hover {
+    background: white;
+    border-radius: 20px;
+    color: black;
+}
+
+#content-text-school button:hover {
+    width: 60%;
+    border-radius: 20px;
+    transform: translateY(-10%);
+    opacity: .9;
+
+}
+
+#content-text-school a:hover {
+    color: black;
+}
+
+
+
+#img-school-slide {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid rgba(255, 217, 0, 0.562);
+    border-radius: 20px;
+
+}
+
+#img-school-slide:hover {
+    box-shadow: -10px 5px 15px rgba(255, 255, 255, 0.658);
+}
+
+#container-geral-cards h5 {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+#container-geral-cards p {
+    font-weight: 500;
+    font-size: 18px;
+    padding: .5em;
+}
+
+.btn-school {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.btn-school button {
+    padding: .5em;
+    background: rgba(54, 158, 255, 0.685);
+    box-shadow: 2px 5px 15px black;
+}
+
+.btn-school a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+/*////////////////////////////////////////////// Fotos cards do curso  */
+.container-geral-photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.container-card-principal {
+    width: 40vw;
+    padding: 1em;
+}
+
+
+.cards-photos {
+    color: white;
+
+}
+
+
+.cards-photos img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    transform: translateY(104px);
+}
+
+.cards-photos h5 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards-photos p {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.cards-photos img:hover {
+    transform: translateY(-8px);
+    opacity: .9;
+    border-radius: 20px;
+    box-shadow: -9px 5px 10px rgba(255, 255, 255, 0.555);
+}
+
+.content-text-photo {
+    max-width: 490px;
+}
+
+/*////////////////////////////////////////// Estudando atualmente sessao */
+
+.atual-estudos {
+    padding: 1em;
+}
+
+
+
+.container-atual-geral {
+    display: flex;
+    width: 45vw;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal-atual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-atual-estudo {
+    text-align: center;
+    padding: 4em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content-text-atual {
+    text-align: start;
+}
+
+#content-text-atual h4 {
+    font-family: 'Poppins', sans-serif;
+    animation: efeito 10s steps(20) infinite;
+    width: 150px;
+    margin: 0;
+    padding: .2em;
+}
+
+#content-text-atual p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@keyframes efeito {
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+#content-text-atual {
+    min-width: 320px;
+    min-height: 250px;
+    background: rgba(0, 0, 0, 0.527);
+    border-radius: 10px 100px 20px 100px;
+    color: white;
+    padding: 1em;
+}
+
+.content-text-geral {
+    background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
+    border: 1px solid black;
+}
+
+
+.card-sobre {
+    border: none;
+    background-color: white;
+}
+
+.card-sobre img {
+    height: 324px;
+}
+
+
+.card-atual img {
+    object-fit: cover;
+
+}
+
+
+
+
+/*///////////////////////////// Pagina sobre mim media query */
+
+@media (max-width: 1024px) {
+
+    /* Pagina sobre mim  */
+    .sessao-cards {
+        padding: 0 0.1em;
+        column-gap: 0;
+    }
+
+    #img-school-slide {
+        width: 412px;
+        height: 230px;
+    }
+
+    #content-text-school {
+        width: 420px;
+    }
+
+    .container-cursos-conteudos img {
+        width: 341px;
+        height: 188px;
+    }
+
+    .container-card-principal {
+        padding: .4em;
+    }
+
+    .cards-photos img {
+        width: 381px;
+        height: 244px
+    }
+    
+    .container-geral-photos {
+        column-gap: 0;
+        row-gap: 0;
+        align-items: flex-start;
+    }
+
+    .content-text-photo {
+        width: 380px;
+    }
+
+    .cards-photos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container-perfil {
+        padding: .4em;
+        flex-direction: column;
+    }
+
+    .container-text-about {
+        padding: .8em;
+    }
+
+    #img-school-slide {
+        width: 321px;
+        height: 180px
+    }
+
+    #content-text-school {
+        width: 378px;
+    }
+
+    .container-geral-photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-card-principal {
+        padding: 2.7em;
+    }
+
+    .container-atual-geral {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .container-school {
+        padding: 1em 0;
+        flex-direction: column;
+    }
+
+    .contente-text-school {
+        text-align: center;
+        padding: 0 1em;
+    }
+
+    .sessao-cards {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .container-cursos-conteudos {
+        padding: 1em 0;
+        flex-direction: column;
+    }
+
+    .contente-cursos-text {
+        text-align: center;
+    }
+
+    .titulo-atual-estudo {
+        padding: 3em 0;
+    }
+}
+
+@media (max-width: 375px) {
+    #content-text-school {
+        width: 321px;
+    }
+
+    .content-text-photo  {
+        width: 316px;
+    }
+
+    .cards-photos img {
+        width: 322px;
+    }
+
+    .card-atual {
+        width: 292px;
+    }
+
+    #content-text-atual {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-text-about p {
+        font-size: medium;
+    }
+
+    .container-text-about h4 {
+        font-size: large;
+    }
+
+    .contente-text-school h3 {
+        font-size:22px;
+    }
+
+    .contente-text-school h5 {
+        font-size: medium;
+    }
+
+    #img-school-slide {
+        width: 265px;
+        height: 161px;
+    }
+
+    #content-text-school {
+        width: 262px;
+    }
+
+    #content-text-school p {
+        font-size: medium;
+    }
+
+    .btn-school:hover {
+        width: 319px;
+        margin-inline: 2.3em;
+        justify-content: flex-start;
+    }
+
+    .container-cursos-conteudos img {
+        width: 250px;
+        height: 140px;
+    }
+
+    .contente-cursos-text h3 {
+        font-size: larger;
+    }
+
+    .contente-cursos-text h5 {
+        font-size: medium;
+    }
+
+    .cards-photos img {
+        width: 285px;
+
+    }
+
+    .content-text-photo {
+        width: 280px;
+    }
+
+    .content-text-photo p {
+        font-size: medium;
+    }
+
+    .container-perfil img {
+        width: 200px;
+    }
+
+    .card-atual {
+        width: 240px;
+    }
+
+}

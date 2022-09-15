@@ -1,0 +1,562 @@
+/*///////////////////////////////////////////// Geral do menu navbar parte Interna  */
+
+#container-geral-menu {
+    background: black;
+    
+}
+
+#nav-front{
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgba(26, 1, 56, 0.836) 91.1%);
+    padding: 2em;
+}
+
+.titulo-inicio-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#text-navbar {
+    -webkit-backdrop-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: texto 2.8s steps(200, end) alternate infinite;
+    white-space:nowrap;
+    border-right: 5px solid #fff;
+}
+#text-navbar span {
+    padding-left: 10px;
+    color:#ffc400c0;
+}
+
+
+@keyframes texto {
+    0% {
+         width: 0;
+         border-color: transparent;
+         
+         
+    }
+    100% {
+        width: 8%;
+        border-color: transparent;
+        color: #fff;
+    }
+}
+
+
+
+.container-links-navbar {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 2pt;
+}
+
+.list-link {
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+.list-link li, a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 3em;
+    color: white;
+    font-size:large;
+}
+
+.list-link a:hover {
+    opacity: .5;
+    color: white;
+    font-weight: bolder;
+}
+
+#btn-geral {
+    border: none;
+}
+#btn-navbar {
+    height: 45px;
+}
+
+.sub-rede-links {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.redes-sociais {
+    margin: 0;
+    display: inline-flex;
+}
+
+.redes-sociais img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 1px #4b4b50);
+    animation: flutuar 2s alternate infinite;
+}
+
+.redes-sociais img:hover {
+    opacity: .7;
+}
+
+
+@keyframes flutuar {
+    0%,100% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+.redes-sociais a {
+    margin: 0;
+    padding-right: 1em;
+}
+
+
+/* /////////////////////////////////////////// Incio NavBar/ Menu Principal parte Externa */
+
+
+/* letra da logo */
+.container {
+    color: white;
+    display: inline-flex;
+    padding: 0;
+}
+
+
+
+.container .dinamico {
+    line-height: 90px;
+    height: 74px;
+    overflow: hidden;
+    margin: -25px;
+    padding-left: 40px;
+}
+
+.dinamico li {
+    color: #Fc6d6d;
+    list-style: none;
+    font-size:xx-large;
+    font-weight: 200;
+    left: 0;
+    position: relative;
+    top: 0;
+    animation: slide 10s steps(4) infinite;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .estatico {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    animation: flash 2s steps(25) infinite;
+}
+
+@keyframes flash {
+    100% {
+        color: black;
+    }
+}
+
+@keyframes slide {
+    0% {
+        color:#ffc400c0;
+    }
+    20% {
+        color: #ffc400c0;
+    }
+
+    50% {
+        color: turquoise;
+        
+    }
+    80% {
+        color: turquoise;
+        
+    }
+    100% {
+        color:turquoise ;
+        top: -360px;
+    }
+}
+
+.dinamico li span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.dinamico li span {
+    position: relative;
+}
+
+
+
+/*/////////////////////////////////////////////////// Slides imagens */
+
+#img-incio-slide {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    background: black;
+    height: 400px;
+}
+
+
+#img-incio-slide img {
+    width: 100%;
+    height: 75vh;
+    object-fit:cover;
+
+}
+
+/*//////////////////////////////////////// sessão meus projetos Cards */
+
+.principal-geral-project {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgba(26, 1, 56, 0.836) 91.1%);
+}
+
+#seta-baixo {
+    margin: 0;
+    padding: 6em;
+}
+
+#seta-baixo figure {
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    position: relative;
+    padding: 1vh;
+    margin: 0;
+
+    animation-name: seta-baixo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#seta-img {
+    width: 15vw;
+    height: 10vh;
+    opacity: .8;
+    object-fit: contain;
+}
+
+@keyframes seta-baixo {
+    0% {
+        top: 2em;
+    }
+
+    100% {
+        top: 4rem;
+    }
+
+}
+
+
+#titulo-cards-project {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+#titulo-cards-project h2 {
+    margin: 0;
+    font-size: 2.6em;
+    border-bottom: 2px solid #fff;
+    border-bottom-left-radius: 20px ;
+}
+
+
+.container-pai-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-main-cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap:wrap;
+    z-index: 1;
+    margin: 2em;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.container-main-cards .container-cards-sub {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px  rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5) ;
+    
+}
+
+.container-main-cards .container-cards-sub .card-content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+     transition: 0.5s;
+    
+}
+
+.container-main-cards .container-cards-sub:hover .card-content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+
+.container-main-cards .container-cards-sub .card-content h3 {
+    font-size: 1.8em;
+    color: white;
+    z-index: 1;
+
+}
+
+.container-main-cards .container-cards-sub .card-content p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
+
+
+.container-main-cards .container-cards-sub .card-content img {
+    width: 161px;
+    height: 165px;
+}
+
+.container-main-cards .container-cards-sub .card-content figure {
+    margin: 0 0 .2em;
+}
+
+/* importação da fonte letra */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+.card-descricao-text h5 {
+    font-weight: 500;
+    font-size: 1.8em;
+    font-family: 'Cardo', serif;
+
+}
+
+
+
+#link-card {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background:rgba(54, 158, 255, 0.685);
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 2px 5px 15px black;
+}
+
+#link-card:hover {
+    width: 50%;
+    opacity: .7;
+}
+
+
+
+
+
+
+/*//////////////////////// Media Query de toda a pagina Home com seus componentes */
+
+@media (max-width: 1024px) {
+    #container-media-textNav {
+        flex-wrap: nowrap;
+    }
+
+    .list-link {
+        align-items: center;
+        padding: 0 .2em;
+    }
+
+    .list-link li {
+        margin: 0 .6em;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .list-link li, a {
+        margin: 0 20px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .container .dinamico {
+        height: 77px;
+        padding-top: 16px;
+       padding-left: 0;
+    }
+
+    #container-media-textNav {
+        padding: 0 5px;
+        align-items: flex-start;
+    }
+
+    .dinamico li {
+        font-size: large;
+    }
+
+    .estatico h2 {
+        font-size: x-large;
+    }
+
+    .list-link li {
+        margin: 0;
+    }
+
+    .list-link a {
+        margin: 5px;
+    }
+
+    .titulo-inicio-navbar {
+        justify-content: flex-start;
+    }
+
+    .container-links-navbar {
+        justify-content: flex-start;
+    }
+
+    .list-link a {
+        font-size: medium;
+    }
+
+    .sub-rede-links {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center
+    }
+
+    #titulo-cards-project h2 {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    #btn-geral {
+        padding: 4px;
+    }
+
+    .list-link h4 {
+        font-size: x-small;
+    }
+
+    .list-link a {
+        font-size: small;
+    }
+
+    #titulo-cards-project {
+        font-size: small;
+    }
+
+    .redes-sociais img {
+        width: 28px;
+        height: 28px;
+    }
+
+    #btn-navbar {
+        width: 32px;
+        height: 34px
+    }
+   
+
+}
+
+@media (max-width: 320px) {
+    .estatico h2 {
+        font-size: medium;
+    }    
+
+    .dinamico li {
+        font-size: small;
+    }
+
+    #btn-geral {
+        padding: 0 6px;
+        padding-right: 0;
+
+    }
+
+    .container-main-cards .container-cards-sub {
+        width: 90%;
+    }
+
+    .redes-sociais img {
+        width: 26px;
+        height: 26px;
+    }
+
+    
+    .container .dinamico {
+        padding-top: 10px;
+    }
+
+    .list-link {
+        padding: 0 .1em;
+    }
+    .list-link a {
+        font-size: 12px;
+        margin: 6px;
+    }
+
+    #seta-baixo {
+        padding: 4em;
+    }
+
+    #titulo-cards-project h2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    
+    .redes-sociais a {
+        padding-right: .2em;
+    }
+
+    .container-main-cards .container-cards-sub .card-content p {
+        margin-bottom: 2px;
+    }
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background: black;
+    border-top: 2px solid rgba(255, 255, 255, 0.644);
+    box-shadow: 12px 10px 10px 15px white;
+}
+
+footer figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1em;
+}
+
+footer a {
+    margin: 10px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer a:hover {
+    opacity: .7;
+    transform: translateY(-5px);
+}

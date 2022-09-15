@@ -1,0 +1,197 @@
+.geral-container-projects {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgba(26, 1, 56, 0.836) 91.1%);
+}
+
+.titulo-todos-projects {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    padding-bottom: .8em;
+    box-shadow: -5px 5px 5px 5px white;
+    border-radius: 10px 100px 10px 100px ;
+}
+
+.projetos-titulos {
+    text-align: start;
+    color: white;
+    font-family: 'Rye', cursive;
+    padding-top: 4em;
+    text-indent: 2em;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid gray;
+}
+
+.projetos-titulos figure {
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+}
+
+.projetos-titulos img {
+    width: 60px;
+    height: 60px;
+}
+
+.projetos-titulos h3 {
+    margin: 0;
+}
+
+.sub-cards-principal {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    column-gap: 14px;
+}
+
+#img-cards {
+    object-fit: cover;
+    height: 50vh;
+    border-bottom: 4px solid black;
+    border-radius: 10px;
+}
+
+
+/*//////////////////////////////////////////////// Estilização dos cards  */
+
+.card-body-projetos {
+    padding: 1em;
+}
+
+.card-body-projetos h5 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: gainsboro;
+    margin: 0;
+    padding: 0 1em;
+ 
+}
+
+.card-body-projetos p {
+    border-bottom-right-radius: 40pt;
+    font-weight: 600;
+    font-size: 18px;
+    background: gainsboro;
+    padding: 5px 1.5em;
+    box-shadow: -10px 20px 10px black;
+}
+
+/* botao dos cards */
+.geral-btn-project {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1em;
+}
+
+.geral-btn-project button {
+    background: rgba(54, 158, 255, 0.836);
+    font-family: 'Poppins', sans-serif;
+    padding: .8em;  
+    border: none; 
+    border-radius: 20px 100px 20px 100px;
+    box-shadow: -5px 10px 10px black; 
+}
+
+
+.geral-btn-project a {
+    color: black;
+    font-size: larger;
+    margin: 22px;
+}
+
+.geral-btn-project button:hover {
+    opacity: .7;
+    transform: translateY(-2px);
+}
+
+
+
+/*//////////////////////////////////// Parte de Responsividade  */
+
+@media (max-width: 1024px) {
+
+    .sub-cards-principal {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 55%!important;
+        height: 50%;
+    }
+
+    #img-cards {
+        height: 448px;
+    }
+
+    .projetos-titulos {
+        text-indent: 4em;
+    }
+}
+
+@media (max-width: 768px) {
+    #img-cards {
+        height: 355px;
+    }
+}
+
+@media (max-width: 425px) {
+    .projetos-titulos {
+        text-indent: 0;
+        justify-content: center;
+    }
+
+    .sub-cards-principal {
+        padding: .8em;
+    }
+
+    .card {
+        width: 90%!important;
+    }
+}
+
+@media (max-width: 375px) {
+    .titulo-todos-projects {
+        padding: 1em;
+    }
+
+    .projetos-titulos {
+        padding-top: 2em;
+    }
+}
+
+@media (max-width: 320px) {
+    .projetos-titulos h3 {
+        font-size: large;
+    }
+
+    .projetos-titulos img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .projetos-titulos figure {
+        margin: 0;
+        margin-inline: 10px;
+    } 
+
+    .sub-cards-principal {
+        padding: .2em;
+        padding-top: .8em;
+    }
+
+    .card {
+        width: 95%!important;
+    }
+
+    .titulo-todos-projects h1 {
+        font-size: larger;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+/*///////////////////////// Container Principal do Softs */
+
+.container-softs-geral {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgba(26, 1, 56, 0.836) 91.1%);
+}
+
+
+/*////////////////////// Primeira parte das skills com links do git hub  */
+
+.titulo-soft-skill {
+    text-align: center;
+    padding: 2em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container-geral-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-geral-skill img {
+    width: 40vw;
+    height: 40vh;
+}
+
+/*//////////////////////////////////// Segunda parte das linguagens com imagens */
+
+.titulo-linguagens-programa {
+    padding: 2em;
+}
+
+.titulo-linguagens-programa h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.content-img-linguagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.content-img-linguagens img {
+    width: 50px;
+    height: 50px;
+    margin: 0 .6em;
+    animation: flutuar 4s linear infinite;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-23px);
+    }
+}
+
+.content-img-linguagens img:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.content-img-linguagens img:nth-child(3) {
+    animation-delay: .4s;
+}
+
+.content-img-linguagens img:nth-child(4) {
+    animation-delay: .5s;
+}
+
+.content-img-linguagens img:nth-child(5) {
+    animation-delay: .6s;
+} 
+
+.content-img-linguagens img:nth-child(6) {
+    animation-delay: .7s;
+}
+
+.content-img-linguagens img:nth-child(7) {
+    animation-delay: .8s;
+}
+
+.content-img-linguagens img:nth-child(8) {
+    animation-delay: .9s;
+}
+
+.content-img-linguagens img:nth-child(9) {
+    animation-delay: .9s;
+}
+
+@media (max-width: 768px) {
+    .titulo-soft-skill h2{
+        font-size: x-large;
+
+    }
+
+    .titulo-linguagens-programa h2 {
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo-soft-skill h2 {
+        font-size: medium;
+    }
+
+    .titulo-linguagens-programa h2 {
+        font-size: large;
+    }
+
+    .container-geral-skill {
+        flex-direction: column;
+    }
+
+    .container-geral-skill a {
+        margin: 0;
+    }
+
+    .container-geral-skill img {
+        width: 350px;
+    }
+
+    .content-img-linguagens {
+        padding: .2em;
+    }
+
+    .content-img-linguagens img {
+        width: 38px;
+        height: 38px;
+        margin: 0 2px;
+    }
+}
+
+@media (max-width:320px) {
+    .container-geral-skill img {
+        width: 280px;
+        height: 180px;
+    }
+
+    .titulo-soft-skill {
+        padding: .7em;
+    }
+
+    
+    .content-img-linguagens {
+        padding: 0;
+    }
+
+    .content-img-linguagens img {
+        width: 28px;
+        height: 28px;
+        margin: 0 2px;
+    }
+}
