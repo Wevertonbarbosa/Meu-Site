@@ -151,7 +151,7 @@ function Sites() {
                 <div className="sub-cards-principal">
                     <div class="card mb-3 w-25">
                         <img
-                            src="https://tecnologiaenvivo.com/wp-content/uploads/2019/05/que-es-css3-y-algunas-de-sus-funcionalidades.jpeg"
+                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
                             class="card-img-top"
                             id="img-cards"
                             alt="..."
@@ -180,7 +180,7 @@ function Sites() {
 
                     <div class="card mb-3 w-25">
                         <img
-                            src="https://tecnologiaenvivo.com/wp-content/uploads/2019/05/que-es-css3-y-algunas-de-sus-funcionalidades.jpeg"
+                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
                             class="card-img-top"
                             alt="..."
                             id="img-cards"
@@ -212,7 +212,7 @@ function Sites() {
 
                     <div class="card mb-3 w-25">
                         <img
-                            src="https://tecnologiaenvivo.com/wp-content/uploads/2019/05/que-es-css3-y-algunas-de-sus-funcionalidades.jpeg"
+                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
                             class="card-img-top"
                             alt="..."
                             id="img-cards"
@@ -240,7 +240,7 @@ function Sites() {
 
                     <div class="card mb-3 w-25">
                         <img
-                            src="https://tecnologiaenvivo.com/wp-content/uploads/2019/05/que-es-css3-y-algunas-de-sus-funcionalidades.jpeg"
+                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
                             class="card-img-top"
                             alt="..."
                             id="img-cards"

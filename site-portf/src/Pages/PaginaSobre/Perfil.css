@@ -226,7 +226,7 @@ h4 {
     align-items: center;
     justify-content: center;
     column-gap: 10px;
-    row-gap: 10px;
+    row-gap: 40px;
 }
 
 .container-card-principal {
@@ -245,12 +245,7 @@ h4 {
     width: 500px;
     height: 300px;
     object-fit: cover;
-    transform: translateY(104px);
-}
-
-.cards-photos h5 {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 .cards-photos p {
@@ -262,7 +257,6 @@ h4 {
 
 
 .cards-photos img:hover {
-    transform: translateY(-8px);
     opacity: .9;
     border-radius: 20px;
     box-shadow: -9px 5px 10px rgba(255, 255, 255, 0.555);
@@ -270,6 +264,14 @@ h4 {
 
 .content-text-photo {
     max-width: 490px;
+}
+
+.content-text-photo summary {
+    font-family: 'Poppins', sans-serif;
+    text-align: start;
+    font-size: larger;
+    margin: 0.5em;
+    border-bottom: 2px solid white;
 }
 
 /*////////////////////////////////////////// Estudando atualmente sessao */
