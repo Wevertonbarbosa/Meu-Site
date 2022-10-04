@@ -2,10 +2,10 @@
 
 #container-geral-menu {
     background: black;
-    
+
 }
 
-#nav-front{
+#nav-front {
     background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgba(26, 1, 56, 0.836) 91.1%);
     padding: 2em;
 }
@@ -24,22 +24,24 @@
     background-clip: text;
     color: transparent;
     animation: texto 2.8s steps(200, end) alternate infinite;
-    white-space:nowrap;
+    white-space: nowrap;
     border-right: 5px solid #fff;
 }
+
 #text-navbar span {
     padding-left: 10px;
-    color:#ffc400c0;
+    color: #ffc400c0;
 }
 
 
 @keyframes texto {
     0% {
-         width: 0;
-         border-color: transparent;
-         
-         
+        width: 0;
+        border-color: transparent;
+
+
     }
+
     100% {
         width: 8%;
         border-color: transparent;
@@ -63,12 +65,13 @@
 
 }
 
-.list-link li, a {
+.list-link li,
+a {
     text-decoration: none;
     list-style: none;
     margin: 0 3em;
     color: white;
-    font-size:large;
+    font-size: large;
 }
 
 .list-link a:hover {
@@ -78,8 +81,10 @@
 }
 
 #btn-geral {
-    border: none;
+    padding: 0;
+    border-radius: 40px;
 }
+
 #btn-navbar {
     height: 45px;
 }
@@ -108,9 +113,12 @@
 
 
 @keyframes flutuar {
-    0%,100% {
+
+    0%,
+    100% {
         transform: translateY(0px);
     }
+
     100% {
         transform: translateY(0px);
     }
@@ -147,7 +155,7 @@
 .dinamico li {
     color: #Fc6d6d;
     list-style: none;
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: 200;
     left: 0;
     position: relative;
@@ -171,22 +179,25 @@
 
 @keyframes slide {
     0% {
-        color:#ffc400c0;
+        color: #ffc400c0;
     }
+
     20% {
         color: #ffc400c0;
     }
 
     50% {
         color: turquoise;
-        
+
     }
+
     80% {
         color: turquoise;
-        
+
     }
+
     100% {
-        color:turquoise ;
+        color: turquoise;
         top: -360px;
     }
 }
@@ -204,25 +215,12 @@
 }
 
 
-
-/*/////////////////////////////////////////////////// Slides imagens */
-
-#img-incio-slide {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    position: relative;
-    background: black;
-    height: 400px;
-}
+/*/////////////////////////////////////////////////// Meu curriculo para baixar e um Gif animado */
 
 
-#img-incio-slide img {
-    width: 100%;
-    height: 75vh;
-    object-fit:cover;
 
-}
+
+
 
 /*//////////////////////////////////////// sessão meus projetos Cards */
 
@@ -282,7 +280,7 @@
     margin: 0;
     font-size: 2.6em;
     border-bottom: 2px solid #fff;
-    border-bottom-left-radius: 20px ;
+    border-bottom-left-radius: 20px;
 }
 
 
@@ -299,7 +297,7 @@
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     z-index: 1;
     margin: 2em;
     border: 2px solid white;
@@ -311,7 +309,7 @@
     width: 280px;
     height: 400px;
     margin: 30px;
-    box-shadow: 20px 20px 50px  rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
@@ -319,8 +317,8 @@
     justify-content: center;
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5) ;
-    
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
 }
 
 .container-main-cards .container-cards-sub .card-content {
@@ -328,8 +326,8 @@
     text-align: center;
     transform: translateY(100px);
     opacity: 0;
-     transition: 0.5s;
-    
+    transition: 0.5s;
+
 }
 
 .container-main-cards .container-cards-sub:hover .card-content {
@@ -381,7 +379,7 @@
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background:rgba(54, 158, 255, 0.685);
+    background: rgba(54, 158, 255, 0.685);
     border-radius: 20px;
     font-weight: 500;
     box-shadow: 2px 5px 15px black;
@@ -413,21 +411,31 @@
         margin: 0 .6em;
     }
 
+    .container .dinamico {
+        margin: -28px
+    }
+
 }
 
 @media (max-width: 768px) {
 
-    .list-link li, a {
+    .list-link li,
+    a {
         margin: 0 20px;
     }
-    
+
+    .container .dinamico {
+        margin: -29px;
+    }
+
 }
 
 @media (max-width: 425px) {
+
     .container .dinamico {
         height: 77px;
         padding-top: 16px;
-       padding-left: 0;
+        padding-left: 0;
     }
 
     #container-media-textNav {
@@ -459,8 +467,18 @@
         justify-content: flex-start;
     }
 
+    .list-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-link li {
+        padding: .8em;
+    }
+
     .list-link a {
         font-size: medium;
+        font-family: 'Poppins', sans-serif;
     }
 
     .sub-rede-links {
@@ -473,12 +491,13 @@
     #titulo-cards-project h2 {
         font-size: 26px;
     }
+
 }
 
 
 @media (max-width: 375px) {
     #btn-geral {
-        padding: 4px;
+        padding: 0;
     }
 
     .list-link h4 {
@@ -486,7 +505,7 @@
     }
 
     .list-link a {
-        font-size: small;
+        font-size: medium;
     }
 
     #titulo-cards-project {
@@ -502,21 +521,21 @@
         width: 32px;
         height: 34px
     }
-   
+
 
 }
 
 @media (max-width: 320px) {
     .estatico h2 {
         font-size: medium;
-    }    
+    }
 
     .dinamico li {
         font-size: small;
     }
 
     #btn-geral {
-        padding: 0 6px;
+        padding: 0;
         padding-right: 0;
 
     }
@@ -530,7 +549,7 @@
         height: 26px;
     }
 
-    
+
     .container .dinamico {
         padding-top: 10px;
     }
@@ -538,8 +557,9 @@
     .list-link {
         padding: 0 .1em;
     }
+
     .list-link a {
-        font-size: 12px;
+        font-size: medium;
         margin: 6px;
     }
 
@@ -551,7 +571,7 @@
         font-size: 22px;
         padding-bottom: 10px;
     }
-    
+
     .redes-sociais a {
         padding-right: .2em;
     }

@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 
 function Home() {
+
+
+
     return (
         <>
             <header>
@@ -12,7 +15,7 @@ function Home() {
                             </h2>
                         </div>
 
-                        <div className='sub-rede-links'>
+                        <div className="sub-rede-links">
                             <figure className="redes-sociais">
                                 <a
                                     target="blank"
@@ -43,7 +46,7 @@ function Home() {
                                     </li>
                                     <li>
                                         <h4>
-                                            <Link to="/sobre">About me</Link>
+                                            <Link to="/sobre">Sobre</Link>
                                         </h4>
                                     </li>
                                     <li>
@@ -53,15 +56,16 @@ function Home() {
                                     </li>
                                     <li>
                                         <h4>
-                                            <Link to="/projetos">Projects</Link>
+                                            <Link to="/projetos">Projetos</Link>
                                         </h4>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
+
+                {/* NavBar menu parte frente */}
 
                 <nav id="nav-front" class="navbar p-2">
                     <div id="container-media-textNav" class="container-fluid">
@@ -103,6 +107,7 @@ function Home() {
                                 />
                             </span>
                         </button>
+
                     </div>
                 </nav>
             </header>
