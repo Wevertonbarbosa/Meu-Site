@@ -30,7 +30,7 @@
 
 #text-navbar span {
     padding-left: 10px;
-    color: #ffc400c0;
+    color: blue;
 }
 
 
@@ -217,7 +217,89 @@ a {
 
 /*/////////////////////////////////////////////////// Meu curriculo para baixar e um Gif animado */
 
+.content-curriculo {
+    background: linear-gradient(147.6deg, rgb(0, 0, 0) 40.2%, rgba(23, 4, 57, 0.836) 59.1%);
+    height: 70vh;
+    border-bottom: 2px solid #ffffff47;
+}
 
+.img-header-curriculo {
+    display: flex;
+    justify-content: center;
+    max-width: 510px;
+    margin: 0;
+    position: absolute;
+}
+
+.img-header-curriculo img {
+    width: 50%;
+}
+
+.curriculo-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 71px;
+}
+
+#welcome-cv {
+    text-indent: -82px;
+}
+
+#ocupation-cv {
+    text-indent: 110px;
+}
+
+.curriculo-text {
+    text-indent: -49px;
+}
+
+.curriculo-text h2,
+h3 {
+    color: white;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.container-download-cv {
+    display: flex;
+    align-items: center;
+    padding: 2em 2em;
+
+    flex-direction: column;
+}
+
+.container-download-cv button {
+    width: 86%;
+    background: transparent;
+    height: 95px;
+}
+
+.container-download-cv h4 {
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+
+#download-curriculo {
+    text-align: center;
+    margin: 0;
+    width: 17%;
+    padding: .5em;
+    border-radius: 30px;
+}
+
+#download-curriculo img {
+    width: 100%;
+    height: 100%;
+}
+
+#download-curriculo img:hover {
+    opacity: .8;
+    transform: translateY(-2px);
+}
 
 
 
@@ -415,6 +497,10 @@ a {
         margin: -28px
     }
 
+    .img-header-curriculo {
+        max-width: 366px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -426,6 +512,18 @@ a {
 
     .container .dinamico {
         margin: -29px;
+    }
+
+    .img-header-curriculo {
+        max-width: 210px;
+    }
+
+    .img-header-curriculo img {
+        width: 90%;
+    }
+    
+    .container-download-cv {
+        margin-left: 1.7em;
     }
 
 }
@@ -492,6 +590,18 @@ a {
         font-size: 26px;
     }
 
+    
+    #download-curriculo {
+     width: 24%;   
+    }
+
+    .container-download-cv {
+        margin-left: 2.2em;
+    }
+
+    .img-header-curriculo {
+        display: none;
+    }
 }
 
 
@@ -521,6 +631,11 @@ a {
         width: 32px;
         height: 34px
     }
+
+    #download-curriculo {
+        width: 28%;
+    }
+
 
 
 }
@@ -578,5 +693,17 @@ a {
 
     .container-main-cards .container-cards-sub .card-content p {
         margin-bottom: 2px;
+    }
+
+    #download-curriculo {
+      width: 32%;
+    }
+
+    #ocupation-cv {
+        text-indent: 53px;
+    }
+
+    .container-download-cv {
+        margin-left: 2.5em;
     }
 }
