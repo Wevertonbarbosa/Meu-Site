@@ -1,5 +1,6 @@
 import curriculo from '../assets/WellDev.pdf';
 
+
 import Projects from './Projects';
 
 function Slides() {
@@ -35,6 +36,7 @@ function Slides() {
                             />
                         </a>
                     </div>
+                    
                 </div>
             </div>
 

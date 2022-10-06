@@ -106,6 +106,17 @@
     transform: translateY(-2px);
 }
 
+.video-project {
+    width: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.video-project:hover {
+    transform:translateY(1px);
+    opacity: .8;
+}
+
 
 
 /*//////////////////////////////////// Parte de Responsividade  */

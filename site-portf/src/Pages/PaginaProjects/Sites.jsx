@@ -1,3 +1,13 @@
+import medidas from '../videos/Lima.mp4'
+import attack from '../videos/attack.mp4';
+import grid from '../videos/grid.mp4';
+import cent from "../videos/cent.mp4"
+import botao from "../videos/botoes.mp4"
+import compras from "../videos/compras.mp4"
+import tarefas from "../videos/tarefas.mp4"
+import cine from "../videos/wellcine.mp4"
+
+
 function Sites() {
     return (
         <div className="geral-container-projects">
@@ -19,7 +29,7 @@ function Sites() {
                 </div>
 
                 <div className="sub-cards-principal">
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="http://2.bp.blogspot.com/-SITChsTu2A4/UFuT_coD7MI/AAAAAAAADCI/8h2bXQVX28A/s1600/html5.jpg"
                             class="card-img-top"
@@ -49,7 +59,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="http://2.bp.blogspot.com/-SITChsTu2A4/UFuT_coD7MI/AAAAAAAADCI/8h2bXQVX28A/s1600/html5.jpg"
                             class="card-img-top"
@@ -77,7 +87,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="http://2.bp.blogspot.com/-SITChsTu2A4/UFuT_coD7MI/AAAAAAAADCI/8h2bXQVX28A/s1600/html5.jpg"
                             class="card-img-top"
@@ -105,7 +115,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="http://2.bp.blogspot.com/-SITChsTu2A4/UFuT_coD7MI/AAAAAAAADCI/8h2bXQVX28A/s1600/html5.jpg"
                             class="card-img-top"
@@ -149,13 +159,8 @@ function Sites() {
                 {/* Parte de CSS3 */}
 
                 <div className="sub-cards-principal">
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
-                            class="card-img-top"
-                            id="img-cards"
-                            alt="..."
-                        />
+                    <div class="card mb-5 w-25">
+                        <video className='video-project' src={medidas} loop controls type="video/mp4"></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Medidas em CSS3</h5>
                             <p class="card-text">
@@ -178,13 +183,8 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
+                    <div class="card mb-5 w-25">
+                        <video src={attack} loop controls type="video/mp4"  className='video-project'></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">
                                 Aprendendo Pseudo-elementos e Pseudo-Classes em
@@ -210,13 +210,8 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
+                    <div class="card mb-5 w-25">
+                        <video src={grid} loop controls type="video/mp4" className='video-project'></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Grid no CSS3</h5>
                             <p class="card-text">
@@ -238,13 +233,8 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
+                    <div class="card mb-5 w-25">
+                        <video src={cent} loop controls type="video/mp4" className='video-project'></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Elementos Visuais CSS3</h5>
                             <p class="card-text">
@@ -279,7 +269,7 @@ function Sites() {
                 {/* Parte de JavaScript */}
 
                 <div className="sub-cards-principal">
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
                             class="card-img-top"
@@ -292,9 +282,7 @@ function Sites() {
                                 Criei um array de objetos e formulei uma estrura
                                 condicional para averiguar os salários dos
                                 colaboradores e o vínculo empregatício para
-                                fazer o desconto do INSS, se o trabalhador for
-                                PJ não há desconto mas se for CLT tem desconto
-                                mediante o quanto ganha de salário.
+                                fazer o desconto do INSS.
                             </p>
                             <div className="geral-btn-project">
                                 <button>
@@ -309,7 +297,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
                             class="card-img-top"
@@ -338,13 +326,8 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
+                    <div class="card mb-5 w-25">
+                        <video src={botao} loop controls type="video/mp4" className='video-project'></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Utilizando o DOM do JS</h5>
                             <p class="card-text">
@@ -366,13 +349,8 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
+                    <div class="card mb-5 w-25">
+                        <video src={compras} loop controls type="video/mp4" className='video-project'></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">
                                 Funções, DOM, Estruturas condicionais e laços de
@@ -411,7 +389,7 @@ function Sites() {
                 {/* Parte de Java  */}
 
                 <div className="sub-cards-principal">
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://immibbilisim.com/uploads/images/articles/jxyNdwxDRtiIZkcQhZ6d.jpg"
                             class="card-img-top"
@@ -439,7 +417,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://immibbilisim.com/uploads/images/articles/jxyNdwxDRtiIZkcQhZ6d.jpg"
                             class="card-img-top"
@@ -467,7 +445,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://immibbilisim.com/uploads/images/articles/jxyNdwxDRtiIZkcQhZ6d.jpg"
                             class="card-img-top"
@@ -495,7 +473,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://immibbilisim.com/uploads/images/articles/jxyNdwxDRtiIZkcQhZ6d.jpg"
                             class="card-img-top"
@@ -537,24 +515,15 @@ function Sites() {
                 {/* Projeto com React   */}
 
                 <div className="sub-cards-principal">
-                    <div class="card mb-3 w-25">
-                        <img
-                            src="https://www.paceit.co.uk/wp-content/uploads/2021/03/react-web-development.jpg"
-                            class="card-img-top"
-                            id="img-cards"
-                            alt="..."
-                        />
+                    <div class="card mb-5 w-25">
+                        <video src={tarefas} className='video-project' loop controls type="video/mp4" ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">ToDo List React.Js</h5>
                             <p class="card-text">
                                 Criei uma lista de tarefas utilizando um dos
-                                Hooks do React.Js o useState, e na parte da
-                                estilização do meu ToDo List utilizei o
-                                Styled-components e CSS puro, criei alguns
-                                efeitos na aplicação utilizando esses dois
-                                Pseudo-classes Hover e Focus também utilizei o
-                                Keyframes no botão adicionar, site com
-                                Responsividade.
+                                Hooks do React.Js o useState, estilização do meu ToDo List utilizei o
+                                Styled-components e CSS puro.
+
                             </p>
                             <div className="geral-btn-project">
                                 <button>
@@ -569,7 +538,7 @@ function Sites() {
                         </div>
                     </div>
 
-                    <div class="card mb-3 w-25">
+                    <div class="card mb-5 w-25">
                         <img
                             src="https://tse2.mm.bing.net/th?id=OIP.K-TFDN5_cyJWJ_HqUyP4_gAAAA&pid=Api&P=0"
                             class="card-img-top"
@@ -596,6 +565,31 @@ function Sites() {
                             </div>
                         </div>
                     </div>
+
+                    <div class="card mb-5 w-25">
+                        
+                    <video src={cine} className='video-project' loop controls type="video/mp4" ></video>
+                        
+                        <div class="card-body-projetos">
+                            <h5 class="card-title">Well Cine React.Js</h5>
+                            <p class="card-text">
+                            Construi uma landing page de filmes, inspirado no site da Netflix e Telecine. O projeto foi criado com Vite uma das ferramentas mais utilizadas e moderna atualmente.
+                            </p>
+                            <div className="geral-btn-project">
+                                <button>
+                                    <a
+                                        href="https://usestatehooks.netlify.app/"
+                                        target="blank"
+                                    >
+                                        Saiba Mais
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
