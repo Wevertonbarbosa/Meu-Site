@@ -169,17 +169,7 @@ function Sites() {
                                 aprendendo as medidas e suas respectivas
                                 proporções em CSS3, no trabalho em casa criei
                                 uma página com um design incrível.
-                            </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://medidascss07.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
+                            </p> 
                         </div>
                     </div>
 
@@ -197,16 +187,6 @@ function Sites() {
                                 eles foram utilizados na página em que criei cujo tema era um
                                 anime Attack on Titan.
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://pseudoscss3.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
 
@@ -220,16 +200,6 @@ function Sites() {
                                 auxílio de um video no You Tube criei diversas
                                 divisões na tela com as imagens.
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://grid12css.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
 
@@ -242,16 +212,6 @@ function Sites() {
                                 como imagens e com um design incrível, vale a
                                 pena conferir.
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://elementovisualcss3.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -336,16 +296,6 @@ function Sites() {
                                 clique dos botões fazendo uma ligação entre HTML
                                 e JavaScript
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://domjs13.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
 
@@ -362,16 +312,6 @@ function Sites() {
                                 carrinho, clicando em adicionar o produto de
                                 uma forma dinâmica gerará o valor total.
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://carrinhojs.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -525,16 +465,6 @@ function Sites() {
                                 Styled-components e CSS puro.
 
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://usestatehooks.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
 
@@ -575,16 +505,6 @@ function Sites() {
                             <p class="card-text">
                             Construi uma landing page de filmes, inspirado no site da Netflix e Telecine. O projeto foi criado com Vite uma das ferramentas mais utilizadas e moderna atualmente.
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://usestatehooks.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
 
