@@ -15,7 +15,7 @@ function Slides() {
                 </figure>
 
                 <div className="curriculo-text">
-                    <h2 id="welcome-cv">Seja Bem-Vindo (a)</h2>
+                    <h2 id="welcome-cv">Olá, Seja Bem-Vindo (a)</h2>
                     <h3>Eu Sou:</h3>
                     <h2 id="text-navbar">
                         Well<span>Dev</span>
