@@ -511,6 +511,38 @@ function Sites() {
 
 
                 </div>
+
+                {/* Projetos em Andamentos */}
+
+                <div className="projetos-titulos">
+                    <h3>Projetos em andamentos</h3>
+                    <figure>
+                        <img
+                            src="http://f.i.uol.com.br/hunting/furniture/1/common/icons/spin.gif"
+                            alt="andamento"
+                        />
+                    </figure>
+                </div>
+
+                <div className="sub-cards-principal">
+                    <div class="card mb-5 w-25">
+                    <img
+                            src="https://media1.tenor.com/images/7693235329b409da7ef41eb2b72e5564/tenor.gif?itemid=17241164"
+                            class="card-img-top"
+                            alt="..."
+                            id="img-cards"
+                        />
+                        <div class="card-body-projetos">
+                            <h5 class="card-title">Página Ecommerce</h5>
+                            <p class="card-text">
+                                Estou criando uma página Ecommerce utilizando as ferramentas: HTML5 e CSS3.
+                                em breve irei postar o video com a página completa, com seu designer incrível. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     );
