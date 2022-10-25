@@ -636,6 +636,14 @@ h3 {
         width: 28%;
     }
 
+    
+    #welcome-cv {
+        text-indent: -3px;
+    }
+
+    #ocupation-cv {
+        text-indent: 3px;
+    }
 
 
 }
@@ -699,8 +707,12 @@ h3 {
       width: 32%;
     }
 
+    #welcome-cv {
+        text-indent: -3px;
+    }
+
     #ocupation-cv {
-        text-indent: 53px;
+        text-indent: 3px;
     }
 
     .container-download-cv {

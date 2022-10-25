@@ -24,7 +24,6 @@ function Slides() {
 
                     <div className="container-download-cv">
                         <h4>Download Currículo</h4>
-
                         <a
                             href={curriculo}
                             id="download-curriculo"
