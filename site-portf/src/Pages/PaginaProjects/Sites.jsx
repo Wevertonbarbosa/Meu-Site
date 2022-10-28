@@ -1,12 +1,13 @@
-import medidas from '../videos/Lima.mp4'
+import medidas from '../videos/Lima.mp4';
 import attack from '../videos/attack.mp4';
 import grid from '../videos/grid.mp4';
-import cent from "../videos/cent.mp4"
-import botao from "../videos/botoes.mp4"
-import compras from "../videos/compras.mp4"
-import tarefas from "../videos/tarefas.mp4"
-import cine from "../videos/wellcine.mp4"
-
+import cent from '../videos/cent.mp4';
+import botao from '../videos/botoes.mp4';
+import compras from '../videos/compras.mp4';
+import tarefas from '../videos/tarefas.mp4';
+import cine from '../videos/wellcine.mp4';
+import ecommerce from '../videos/Ecommerce.mp4';
+import quiz from '../videos/quiz-portfolio.mp4';
 
 function Sites() {
     return (
@@ -30,32 +31,21 @@ function Sites() {
 
                 <div className="sub-cards-principal">
                     <div class="card mb-5 w-25">
-                        <img
-                            src="http://2.bp.blogspot.com/-SITChsTu2A4/UFuT_coD7MI/AAAAAAAADCI/8h2bXQVX28A/s1600/html5.jpg"
-                            class="card-img-top"
-                            id="img-cards"
-                            alt="..."
-                        />
+                        <video
+                            className="video-project"
+                            src={ecommerce}
+                            loop
+                            controls
+                            type="video/mp4"
+                        ></video>
 
                         <div class="card-body-projetos">
-                            <h5 class="card-title">Formulário em Html5</h5>
+                            <h5 class="card-title">Site Ecommerce</h5>
                             <p class="card-text">
-                                Trabalho realizado no curso intensivo no
-                                Instituto da Oportunidade Social. Criação de um
-                                simples Fomulário, estavamos conhecendo algumas
-                                Tags novas, veja como ficou clicando no botão.
+                                Designer incrível, site funcional com inspiração
+                                no Ecommerce do Mercado Livre, claro algumas
+                                coisa alterei do meu jeito.
                             </p>
-
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://formulariohtml07.netlify.app/"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
                         </div>
                     </div>
 
@@ -160,7 +150,13 @@ function Sites() {
 
                 <div className="sub-cards-principal">
                     <div class="card mb-5 w-25">
-                        <video className='video-project' src={medidas} loop controls type="video/mp4"></video>
+                        <video
+                            className="video-project"
+                            src={medidas}
+                            loop
+                            controls
+                            type="video/mp4"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Medidas em CSS3</h5>
                             <p class="card-text">
@@ -169,12 +165,18 @@ function Sites() {
                                 aprendendo as medidas e suas respectivas
                                 proporções em CSS3, no trabalho em casa criei
                                 uma página com um design incrível.
-                            </p> 
+                            </p>
                         </div>
                     </div>
 
                     <div class="card mb-5 w-25">
-                        <video src={attack} loop controls type="video/mp4"  className='video-project'></video>
+                        <video
+                            src={attack}
+                            loop
+                            controls
+                            type="video/mp4"
+                            className="video-project"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">
                                 Aprendendo Pseudo-elementos e Pseudo-Classes em
@@ -183,15 +185,21 @@ function Sites() {
                             <p class="card-text">
                                 Trabalho realizado no curso intensivo no
                                 Instituto da Oportunidade Social. Aprendendo
-                                sobre Pseudo-elementos e Pseudo-classes,
-                                eles foram utilizados na página em que criei cujo tema era um
-                                anime Attack on Titan.
+                                sobre Pseudo-elementos e Pseudo-classes, eles
+                                foram utilizados na página em que criei cujo
+                                tema era um anime Attack on Titan.
                             </p>
                         </div>
                     </div>
 
                     <div class="card mb-5 w-25">
-                        <video src={grid} loop controls type="video/mp4" className='video-project'></video>
+                        <video
+                            src={grid}
+                            loop
+                            controls
+                            type="video/mp4"
+                            className="video-project"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Grid no CSS3</h5>
                             <p class="card-text">
@@ -204,7 +212,13 @@ function Sites() {
                     </div>
 
                     <div class="card mb-5 w-25">
-                        <video src={cent} loop controls type="video/mp4" className='video-project'></video>
+                        <video
+                            src={cent}
+                            loop
+                            controls
+                            type="video/mp4"
+                            className="video-project"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Elementos Visuais CSS3</h5>
                             <p class="card-text">
@@ -287,7 +301,13 @@ function Sites() {
                     </div>
 
                     <div class="card mb-5 w-25">
-                        <video src={botao} loop controls type="video/mp4" className='video-project'></video>
+                        <video
+                            src={botao}
+                            loop
+                            controls
+                            type="video/mp4"
+                            className="video-project"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">Utilizando o DOM do JS</h5>
                             <p class="card-text">
@@ -300,7 +320,13 @@ function Sites() {
                     </div>
 
                     <div class="card mb-5 w-25">
-                        <video src={compras} loop controls type="video/mp4" className='video-project'></video>
+                        <video
+                            src={compras}
+                            loop
+                            controls
+                            type="video/mp4"
+                            className="video-project"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">
                                 Funções, DOM, Estruturas condicionais e laços de
@@ -309,8 +335,8 @@ function Sites() {
                             <p class="card-text">
                                 Criei um carrinho de compras aonde você pode
                                 adicionar o item, valor e quantidade no
-                                carrinho, clicando em adicionar o produto de
-                                uma forma dinâmica gerará o valor total.
+                                carrinho, clicando em adicionar o produto de uma
+                                forma dinâmica gerará o valor total.
                             </p>
                         </div>
                     </div>
@@ -456,93 +482,61 @@ function Sites() {
 
                 <div className="sub-cards-principal">
                     <div class="card mb-5 w-25">
-                        <video src={tarefas} className='video-project' loop controls type="video/mp4" ></video>
+                        <video
+                            src={tarefas}
+                            className="video-project"
+                            loop
+                            controls
+                            type="video/mp4"
+                        ></video>
                         <div class="card-body-projetos">
                             <h5 class="card-title">ToDo List React.Js</h5>
                             <p class="card-text">
                                 Criei uma lista de tarefas utilizando um dos
-                                Hooks do React.Js o useState, estilização do meu ToDo List utilizei o
-                                Styled-components e CSS puro.
-
+                                Hooks do React.Js o useState, estilização do meu
+                                ToDo List utilizei o Styled-components e CSS
+                                puro.
                             </p>
                         </div>
                     </div>
 
                     <div class="card mb-5 w-25">
-                        <img
-                            src="https://tse2.mm.bing.net/th?id=OIP.K-TFDN5_cyJWJ_HqUyP4_gAAAA&pid=Api&P=0"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
+                        <video
+                            src={quiz}
+                            className="video-project"
+                            loop
+                            controls
+                            type="video/mp4"
+                        ></video>
                         <div class="card-body-projetos">
-                            <h5 class="card-title">
-                                React-Router-DOM v6 React.Js
-                            </h5>
+                            <h5 class="card-title">Quiz React.JS</h5>
                             <p class="card-text">
-                                Em breve completo! Veja como está no
-                                repositório.
+                            Criei um Quiz utilizando React.JS, este projeto serve para treinar e aprender mais sobre o React.JS e seus hooks.
                             </p>
-                            <div className="geral-btn-project">
-                                <button>
-                                    <a
-                                        href="https://github.com/Wevertonbarbosa/Router-v6"
-                                        target="blank"
-                                    >
-                                        Saiba Mais
-                                    </a>
-                                </button>
-                            </div>
+                            
                         </div>
                     </div>
 
                     <div class="card mb-5 w-25">
-                        
-                    <video src={cine} className='video-project' loop controls type="video/mp4" ></video>
-                        
+                        <video
+                            src={cine}
+                            className="video-project"
+                            loop
+                            controls
+                            type="video/mp4"
+                        ></video>
+
                         <div class="card-body-projetos">
                             <h5 class="card-title">Well Cine React.Js</h5>
                             <p class="card-text">
-                            Construi uma landing page de filmes, inspirado no site da Netflix e Telecine. O projeto foi criado com Vite uma das ferramentas mais utilizadas e moderna atualmente.
-                            </p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-                {/* Projetos em Andamentos */}
-
-                <div className="projetos-titulos">
-                    <h3>Projetos em andamentos</h3>
-                    <figure>
-                        <img
-                            src="http://f.i.uol.com.br/hunting/furniture/1/common/icons/spin.gif"
-                            alt="andamento"
-                        />
-                    </figure>
-                </div>
-
-                <div className="sub-cards-principal">
-                    <div class="card mb-5 w-25">
-                    <img
-                            src="https://media1.tenor.com/images/7693235329b409da7ef41eb2b72e5564/tenor.gif?itemid=17241164"
-                            class="card-img-top"
-                            alt="..."
-                            id="img-cards"
-                        />
-                        <div class="card-body-projetos">
-                            <h5 class="card-title">Página Ecommerce</h5>
-                            <p class="card-text">
-                                Estou criando uma página Ecommerce utilizando as ferramentas: HTML5 e CSS3.
-                                em breve irei postar o video com a página completa, com seu designer incrível. 
+                                Construi uma landing page de filmes, inspirado
+                                no site da Netflix e Telecine. O projeto foi
+                                criado com Vite uma das ferramentas mais
+                                utilizadas e moderna atualmente.
                             </p>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );
