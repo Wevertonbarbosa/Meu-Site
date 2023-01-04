@@ -66,10 +66,9 @@ h4 {
 /* Parte sobre minha informções academicas */
 .container-school {
     display: flex;
-    justify-content: center;
     align-items: center;
     column-gap: 5%;
-    padding: 2em;
+    padding: 2em 11em;
 }
 
 #titulo-school {
@@ -100,11 +99,9 @@ h4 {
 
 .container-cursos-conteudos {
     display: flex;
-    justify-content: center;
     align-items: center;
     column-gap: 5%;
-    padding: 2em;
-
+    padding: 2em 9em;
 }
 
 .titulo-cursos {
@@ -284,7 +281,7 @@ h4 {
 
 .container-atual-geral {
     display: flex;
-    width: 45vw;
+    width: 20vw;
     column-gap: 20px;
     justify-content: center;
     align-items: center;

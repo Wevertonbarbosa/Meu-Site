@@ -78,7 +78,7 @@ function Home() {
                                     <span>Weverton Lima</span>
                                 </li>
                                 <li>
-                                    <span>Desenvolvedor Front-End</span>
+                                    <span>Desenvolvedor</span>
                                 </li>
                                 <li>
                                     <span>Estudante</span>

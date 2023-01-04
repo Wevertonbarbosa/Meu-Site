@@ -1,4 +1,4 @@
-import curriculo from '../assets/WellDev.pdf';
+import curriculo from '../assets/Dev-Weverton.pdf';
 
 
 import Projects from './Projects';
@@ -20,7 +20,7 @@ function Slides() {
                     <h2 id="text-navbar">
                         Well<span>Dev</span>
                     </h2>
-                    <h3 id="ocupation-cv">Desenvolvedor Front-End</h3>
+                    <h3 id="ocupation-cv">Desenvolvedor</h3>
 
                     <div className="container-download-cv">
                         <h4>Download Currículo</h4>

@@ -1,25 +1,23 @@
 import Cards from './Cards';
 import escola from './img/Escola.jpeg';
 import Photo from './Photo';
-import sobre from './img/sobre.jpeg'
+import sobre from './img/sobre.jpeg';
+import faculdade from './img/logo-fiap.png'
+import startCurso from './img/start-logo.png'
 
 function Sobre() {
     return (
         <div className="container-principal-geral">
             <div className="container-perfil">
-            
-                <figure>  
-                    <img
-                        src={sobre}
-                        alt="Minha imagem de perfil"
-                    />
-                    
+                <figure>
+                    <img src={sobre} alt="Minha imagem de perfil" />
                 </figure>
                 <div className="container-text-about">
                     <h2>Sobre Mim</h2>
                     <p>
-                        Iniciando na área da Tecnologia da informação, com
-                        objetivo de trabalhar na mesma área.
+                        Estudando na área da Tecnologia da informação, com
+                        objetivo de trabalhar na mesma área. Sou bolsista em uma
+                        das melhores faculdades de tecnologia do Brasil, a FIAP.
                     </p>
                     <h4>·Habilidades de programação/Programming Skill:</h4>
                     <p>
@@ -29,17 +27,35 @@ function Sobre() {
                     <h4>·Ferramentas/Tools:</h4>
                     <p>Visual Studio Code, Git e Github e IntelliJ IDEA</p>
                     <p>
-                        Formado como Desenvolvedor de Front-end/Web no Instituto
-                        da Oportunidade Social (IOS). Curso intensivo de 5
-                        meses, desenvolvendo Hard Skills e Softs Skills.
+                        Formado como Desenvolvedor Front-end/Web no Instituto da
+                        Oportunidade Social, desenvolvendo Hard Skills e Softs
+                        Skills.
                     </p>
-                
+                    <h4>·Atualmente:</h4>
+                    <p>
+                        Estudando: Java no curso Start tech, desenvolvedor Java
+                        na maior empresa de tecnologia do Brasil, TOTVS e
+                        parceria com Let 's code from Ada. <br /> Aguardando o início
+                        das aulas na faculdade de Analise e Desenvolvimento de
+                        Sistema na FIAP.
+                    </p>
                 </div>
             </div>
 
             <div className="container-academicos">
                 <div id="titulo-school">
                     <h2>Formação acadêmica</h2>
+                </div>
+                <div className="container-school">
+                    <figure>
+                        <img src={faculdade} alt="Formação escola" />
+                    </figure>
+
+                    <div className="contente-text-school">
+                        <h3>FIAP</h3>
+                        <h5>Iniciando, Ensino Superior</h5>
+                        <h5>02/2023 até 12/2025</h5>
+                    </div>
                 </div>
 
                 <div className="container-school">
@@ -59,7 +75,22 @@ function Sobre() {
 
             <div className="container-cursos">
                 <div className="titulo-cursos">
-                    <h2>Curso Profissionalizante</h2>
+                    <h2>Cursos Profissionalizante</h2>
+                </div>
+
+                <div className="container-cursos-conteudos">
+                    <figure>
+                        <img
+                            src={startCurso}
+                            alt="startCurso"
+                        />
+                    </figure>
+
+                    <div className="contente-cursos-text">
+                        <h3>TOTVS e Let's code from Ada</h3>
+                        <h5>Estudando, Treinamento Intensivo</h5>
+                        <h5>10/2022 até 04/2023</h5>
+                    </div>
                 </div>
 
                 <div className="container-cursos-conteudos">
@@ -80,20 +111,18 @@ function Sobre() {
                 <Photo />
             </div>
 
-            
             <div className="atual-estudos">
                 <div className="titulo-atual-estudo">
                     <h2>Atualmente estudando</h2>
                 </div>
 
                 <div className="container-principal-atual">
-
                     <div className="container-atual-geral">
-
+                        
                         <div className="card-atual">
                             <div class="card-sobre">
                                 <img
-                                    src="https://www.phpro.be/uploads/media/sulu-400x400/00/440-react%404x.png?v=2-0?e6deb5871a14d5e29ad583954ce98c7f"
+                                    src="https://www.celsonunes.com.br/wp-content/uploads/2018/05/java-logo.png"
                                     class="card-img-top"
                                     alt="..."
                                 />
@@ -102,65 +131,14 @@ function Sobre() {
                                         id="content-text-atual"
                                         class="card-body"
                                     >
-                                        <h4 class="card-title">React.Js</h4>
+                                        <h4 class="card-title">Java</h4>
                                         <p class="card-text">
-                                            Abordando asssutos como
-                                            React-Route-Dom v6 conhecendo e
-                                            praticando alguns Hooks do React.Js,
-                                            etc... Meus estudos são feitos pelas
-                                            plataformas digitais.
+                                            Estou estudando Java e abordando diversos assuntos sobre Java, no curso Start tech na maior empresa de Softwares do Brasil TOTVS
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="card-atual">
-                            <div class="card-sobre">
-                                <img
-                                    src="http://www.johanngauss.com.br/images/ingles.jpg"
-                                    class="card-img-top"
-                                    alt="..."
-                                />
-                                <div className="content-text-geral">
-                                    <div
-                                        id="content-text-atual"
-                                        class="card-body"
-                                    >
-                                        <h4 class="card-title">Inglês</h4>
-                                        <p class="card-text">
-                                            Estou estudando pelas plataformas
-                                            digitais e por alguns Apps, meu
-                                            nivel é básico, estou em constante
-                                            aprendizado sempre procurando
-                                            evoluir.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card-atual">
-                            <div class="card-sobre">
-                                <img
-                                    src="https://www.goodworklabs.com/wp-content/uploads/2017/05/9a_Angular-JS-development.jpg"
-                                    class="card-img-top"
-                                    alt="..."
-                                />
-                                <div className="content-text-geral">
-                                    <div
-                                        id="content-text-atual"
-                                        class="card-body"
-                                    >
-                                        <h4 class="card-title">Angular.Js</h4>
-                                        <p class="card-text">
-                                          Irei iniciar meus estudos em Angular...
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
